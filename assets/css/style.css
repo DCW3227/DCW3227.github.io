@@ -1,0 +1,171 @@
+.header{
+    color: blue;
+    padding: 10px;
+    background-color: black;
+    margin: 0;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header ul{
+    list-style: none; 
+}
+
+header li{
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: larger;
+}
+/*END OF HEADER SECTION*/
+
+/*ABOUT ME SECTION*/
+#about-me-title{
+    margin-top: 80px;
+    margin-right: 20px; 
+border-right: 10px solid darkblue;
+  padding-top: 10px; 
+    font-size: 50px; 
+    text-align: center; 
+}
+
+.about-me{
+    display: flex;
+    align-items: center; 
+}
+
+p{
+    font-size: 25px;
+}
+/*END OF ABOUT ME SECTION*/
+
+/*WORK SECTION*/
+#work-section-title {  
+    margin-top: 80px;
+  margin-right: 100px; 
+  padding-top: 10px;
+  padding-right: 10px;
+  
+  position: relative; 
+    
+}
+
+.title-border{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 220px;
+  width: 10px;
+  height: 900px;
+  background-color: darkblue; 
+}
+
+#work-section-title h2{
+    margin: 0;
+    font-size: 50px; 
+  }
+
+
+ .title-photos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .work-section-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  } 
+
+  .work-section-photos > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-section-photos div p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  #galaxy-wallpaper{ 
+    height: 200px; 
+    width: 300px;  
+    margin: 0px; 
+    border: 10px solid darkblue;
+  }
+
+  #orange-planet{
+    height: 200px;
+    width: 270px;
+    margin: 0px;
+    border: 10px solid darkblue;
+  }
+
+  #purple-planet{
+    height: 250px;
+    width: 270px;
+    margin-top: 110px; 
+    border: 10px solid darkblue;
+  }
+
+  #saturn-planet{
+    height: 200px; 
+    width: 270px;
+    margin: 0px;
+    border: 10px solid darkblue;
+  }
+
+  #earth-image{
+    height: 250px;
+    width: 300px; 
+    margin: 0px;
+    border: 10px solid darkblue;
+  }
+  /*END OF WORK SECTION*/
+
+  /*CONTACT ME SECTION*/
+  #contact-me-title{
+    font-size: 40px; 
+  border-bottom: 10px solid darkblue;
+  }
+
+
+  .contact-me-section ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0; 
+  }
+  .contact-me-section li{
+    padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;  
+  text-decoration: underline; 
+  }
+  /*END OF CONTACT ME SECTION*/
+
+body{
+    margin:0;
+    background-color: black;
+    color: rgb(104, 181, 248);
+}
+
+.footer{
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
